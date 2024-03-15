@@ -1,4 +1,4 @@
-package Zadanie3.Test;
+package zadanie3.Test;
 
 public class PalindromeTest {
     

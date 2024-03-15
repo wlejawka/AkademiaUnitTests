@@ -1,4 +1,4 @@
-package Zadanie1.Test;
+package zadanie1.Test;
 
 public class ClubTest {
     

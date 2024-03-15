@@ -1,11 +1,9 @@
-package Zadanie6.Main;
-class Exam{
+package zadanie6.Main;
+public class Exam{
     public static void main (String args[])
         {
-            
-     
         }
-        public static double calculateExam(double price){
-            return price;
+        public String calculateExam(String answers){
+          
           }
     }

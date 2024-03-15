@@ -1,4 +1,4 @@
-package Zadanie2.Main;
+package zadanie2.Main;
 class Premia{
 public static void main (String args[])
 	{
