@@ -1,6 +1,17 @@
+import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.MethodSource;
+import org.junit.jupiter.params.ParameterizedTest;
+import static org.junit.Assert.assertEquals;
+import java.util.stream.Stream;
+import zadanie7.Main.*;
+
+class CardGameTest{
+
 @ParameterizedTest
 @MethodSource({"provideStringsArray"})
   void AdamWinsArray(String [] deckAdam,String [] deckMati,String wynik) {
+    
+
    assertEquals(wynik, CardGame.winner(deckAdam, deckMati));
   }
  
@@ -10,3 +21,4 @@
     );
   }
 
+}
