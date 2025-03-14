@@ -1,9 +1,9 @@
-package zadanie0.Test;
+package Zadanie0.Test;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-import zadanie0.Main.*;
+import Zadanie0.Main.*;
 
 public class Hellotest {
     @Test

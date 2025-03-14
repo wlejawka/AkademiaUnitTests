@@ -1,4 +1,4 @@
-package zadanie5.Test;
+package Zadanie5.Test;
 
 public class RabatTest {
     

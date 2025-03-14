@@ -1,4 +1,4 @@
-package zadanie0.Main;
+package Zadanie0.Main;
 public class HelloWorld{
     public static void main (String args[])
         {

@@ -1,0 +1,60 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run All JUnit Tests",
+            "request": "launch",
+            "mainClass": "org.junit.platform.console.ConsoleLauncher",
+            "args": [
+                "--scan-classpath"
+            ],
+            "projectName": "UnitTests2025_519bdda6"
+        },
+        {
+            "type": "java",
+            "name": "Run Single JUnit Test",
+            "request": "launch",
+            "mainClass": "org.junit.platform.console.ConsoleLauncher",
+            "args": [
+                "--select-class=example.MyTestClass"
+            ],
+            "projectName": "UnitTests2025_519bdda6"
+        },
+        {
+            "type": "java",
+            "name": "HelloWorld",
+            "request": "launch",
+            "mainClass": "Zadanie0.Main.HelloWorld",
+            "projectName": "UnitTests2025_519bdda6"
+        },
+        {
+            "type": "java",
+            "name": "Club",
+            "request": "launch",
+            "mainClass": "Zadanie1.Main.Club",
+            "projectName": "UnitTests2025_519bdda6"
+        },
+        {
+            "type": "java",
+            "name": "Premia",
+            "request": "launch",
+            "mainClass": "Zadanie2.Main.Premia",
+            "projectName": "UnitTests2025_519bdda6"
+        },
+        {
+            "type": "java",
+            "name": "Discount",
+            "request": "launch",
+            "mainClass": "Zadanie4.Main.Discount",
+            "projectName": "UnitTests2025_519bdda6"
+        },
+        {
+            "type": "java",
+            "name": "Exam",
+            "request": "launch",
+            "mainClass": "Zadanie6.Main.Exam",
+            "projectName": "UnitTests2025_519bdda6"
+        }
+    ]
+}

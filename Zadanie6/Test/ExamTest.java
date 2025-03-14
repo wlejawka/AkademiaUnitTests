@@ -1,4 +1,4 @@
-package zadanie6.Test;
+package Zadanie6.Test;
 
 import static org.junit.Assert.assertEquals;
 
@@ -6,7 +6,7 @@ import org.junit.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
-import zadanie6.Main.*;
+import Zadanie6.Main.*;
 
 public class ExamTest {
     @ParameterizedTest
@@ -23,4 +23,4 @@ public class ExamTest {
 
 
     }
-}
+
