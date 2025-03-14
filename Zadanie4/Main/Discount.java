@@ -1,4 +1,4 @@
-package zadanie4.Main;
+package Zadanie4.Main;
 class Discount{
     public static void main (String args[])
         {

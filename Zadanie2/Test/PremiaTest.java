@@ -1,4 +1,4 @@
-package zadanie2.Test;
+package Zadanie2.Test;
 
 public class PremiaTest {
     

@@ -3,7 +3,7 @@ import org.junit.jupiter.params.provider.MethodSource;
 import org.junit.jupiter.params.ParameterizedTest;
 import static org.junit.Assert.assertEquals;
 import java.util.stream.Stream;
-import zadanie7.Main.*;
+import Zadanie7.Main.*;
 
 class CardGameTest{
 
