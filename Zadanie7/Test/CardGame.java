@@ -1,4 +1,3 @@
-package zadanie7.Main;
 public class CardGame{
     public static void main (String args[])
         {
