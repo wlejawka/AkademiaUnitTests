@@ -4,6 +4,6 @@ public class HelloWorld{
         {
         }
     public String getGreeting(){
-        return "HelloWorld!!one";
+        return "12345";
         }
     }
