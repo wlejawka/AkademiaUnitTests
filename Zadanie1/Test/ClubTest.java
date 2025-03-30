@@ -13,7 +13,7 @@ public class ClubTest {
     //Arrange
     Club club = new Club();
     //Act
-    boolean newAge = club.age(17);
+    boolean newAge = club.age(18);
     //Assert
     assertTrue(newAge);
 
