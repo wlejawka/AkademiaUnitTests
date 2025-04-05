@@ -9,7 +9,7 @@ public class KartyHash {
         String[] talia1 = {"2", "3", "4", "5", "6", "7", "8", "9", "T", "J", "Q", "K", "A"}; // prosta tablica początkowa
         ArrayList<String> kartyString = new ArrayList<>(Arrays.asList(talia1)); // konwersja na ArrayList
 
-        Collections.shuffle(kartyString); // tasowanie 1
+        //Collections.shuffle(kartyString); // tasowanie 1
 
         ArrayList<String> kartyAdama = new ArrayList<>(); // tworzymy nową tablicę kart
         // dodajemy 3 karty dla pierwszego gracza
@@ -18,7 +18,7 @@ public class KartyHash {
         kartyAdama.add(kartyString.get(2));
         System.out.println(kartyAdama);
 
-        Collections.shuffle(kartyString); // tasowanie 2
+        //Collections.shuffle(kartyString); // tasowanie 2
 
         ArrayList<String> kartyHonzy = new ArrayList<>(); // tworzymy nową tablicę kart
         // dodajemy 3 karty dla drugiego gracza
